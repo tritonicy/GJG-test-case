@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fc8bdb1b4200b4e9606664fac3845e, type: 3}
+  m_Name: Purple
+  m_EditorClassIdentifier: 
+  tileDefaut: {fileID: 11400000, guid: 6289aa46cf8743a4e91f3bc2e4e66da4, type: 2}
+  tileA: {fileID: 11400000, guid: d6bbe43ee4ba3c5418041d45d382e1b5, type: 2}
+  tileB: {fileID: 11400000, guid: 9224f9019e48277478c1b911df6c70f0, type: 2}
+  tileC: {fileID: 11400000, guid: 72d99f1fa8c83fe449737e68d1588673, type: 2}
+  color: 4

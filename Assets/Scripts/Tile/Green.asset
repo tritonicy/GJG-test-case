@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fc8bdb1b4200b4e9606664fac3845e, type: 3}
+  m_Name: Green
+  m_EditorClassIdentifier: 
+  tileDefaut: {fileID: 11400000, guid: ac6a50aef9828874a99bb181927cbb39, type: 2}
+  tileA: {fileID: 11400000, guid: 9d9e7e271b7f2934aa29f8af0c2bf60d, type: 2}
+  tileB: {fileID: 11400000, guid: 2644ca955d23d7247b17c632214bdf6f, type: 2}
+  tileC: {fileID: 11400000, guid: 0294f7f9c68dfc24c82171039773bc34, type: 2}
+  color: 1
