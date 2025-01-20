@@ -41,6 +41,7 @@ public class GridSystem : MonoBehaviour
         {
             Shuffle();
         }
+
     }
 
     /// <summary>
@@ -448,8 +449,8 @@ public class GridSystem : MonoBehaviour
                 return false;
             }
         }
-        GameAssets.Instance.shuffleText.enabled = true;
-        Invoke("ResetShuffleText", 2f);
+        GameAssets.Instance.shuffleText.gameObject.SetActive(true);
+        Invoke("ResetShuffleText", 1f);
         return true;
     }
 
@@ -580,7 +581,8 @@ public class GridSystem : MonoBehaviour
     /// Reset the shuffle text
     /// </summary>
     public void ResetShuffleText() {
-        GameAssets.Instance.shuffleText.enabled = false;
+        Debug.Log("Reseetlendi");
+        GameAssets.Instance.shuffleText.gameObject.SetActive(false);   
     }
 
     #endregion
